@@ -3,6 +3,13 @@ package praktek02;
 public class Rumah {
     double panjang;
     double lebar;
+
+    public Rumah() {
+        panjang = 44;
+        lebar = 90;
+    }
+    
+    
     
     void cetakInfo(){
         System.out.println("===================");

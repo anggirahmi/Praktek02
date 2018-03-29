@@ -8,6 +8,13 @@ public class Rumah {
         panjang = 44;
         lebar = 90;
     }
+
+    public Rumah(double panjang, double lebar) {
+        this.panjang = panjang;
+        this.lebar = lebar;
+    }
+    
+    
     
     
     

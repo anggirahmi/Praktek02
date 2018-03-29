@@ -20,5 +20,11 @@ public class RumahAksi {
         System.out.println("Luas Rumah = "+S1.hitungLuas());
         S1.cetakLuasRumah();
         
+        Rumah S2 = new Rumah ();
+        S2.cetakInfo();
+        
+        Rumah S3 = new Rumah(90,80);
+        S3.cetakInfo();
+        
     }
 }

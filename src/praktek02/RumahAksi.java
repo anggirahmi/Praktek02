@@ -17,6 +17,7 @@ public class RumahAksi {
         S1.lebar = 333;
         
         S1.cetakInfo();
+        System.out.println("Luas Rumah = "+S1.hitungLuas());
         
     }
 }

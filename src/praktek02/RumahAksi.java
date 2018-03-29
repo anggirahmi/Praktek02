@@ -13,11 +13,12 @@ public class RumahAksi {
     public static void main(String[] args) {
         
         Rumah S1 = new Rumah();
-        S1.panjang = 222;
-        S1.lebar = 333;
+        S1.panjang = 22;
+        S1.lebar = 33;
         
         S1.cetakInfo();
         System.out.println("Luas Rumah = "+S1.hitungLuas());
+        S1.cetakLuasRumah();
         
     }
 }

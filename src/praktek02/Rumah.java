@@ -16,4 +16,8 @@ public class Rumah {
         luas=panjang*lebar;
         return luas;
     }
+    
+    void cetakLuasRumah(){
+        System.out.println("Luasnya Adalah : "+hitungLuas());
+}
 }

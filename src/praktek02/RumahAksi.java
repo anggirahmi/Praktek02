@@ -12,5 +12,7 @@ package praktek02;
 public class RumahAksi {
     public static void main(String[] args) {
         
+        Rumah S1 = new Rumah();
+        
     }
 }
